@@ -4,12 +4,6 @@ by Matt Graham
 */
 
 $color-text: #333333;
-/*$color-grey: #5d5d5d;
-$color-darkgrey: #444444;
- $color-accent: #056DD4; 
-$color-background: #636363; 
-$color-lightgrey: #a9a9a9; */
-
 $color-night-accent: #AB9DF2;
 $color-night-backgd: #2C292D;
 
@@ -37,7 +31,7 @@ $color-accent-purple: #6C71C4;
 @import "partials/intro";
 @import "partials/switch";
 @import "partials/projects";
-
+@import "partials/404";
 
 body {
   font-family: 'Titillium Web';

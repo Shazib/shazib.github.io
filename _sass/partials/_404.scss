@@ -1,0 +1,35 @@
+.not-found {
+  color: $color-bg-light;
+  width: 100%;
+  height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 0px;
+
+  strong {
+    color: $color-bg-light;
+  }
+  a {
+    margin-top: 20px;
+    color: $color-bg-light;
+    border-style: solid;;
+    border: 2px solid $color-bg-light;;
+    padding: 1.25rem 1.75rem;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    &:hover:after,
+    &:focus:after {
+      border-color: $color-accent;
+      height: 3px;
+      opacity: 1;
+      transform: translateY(-5px);
+    }
+    &:hover, &:active {
+      color: $color-bg-light;
+      background-color: rgba(100, 255, 218, 0.07);
+    }
+  }
+}
