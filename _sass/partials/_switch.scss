@@ -25,7 +25,7 @@
       visibility: hidden;
       position: absolute;
       &:checked + label {
-        background: $color-switch;
+        background: $color-accent-green;
       }
       &:checked + label:after {
         left: calc(100% - 3px);

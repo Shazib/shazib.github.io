@@ -4,16 +4,28 @@ by Matt Graham
 */
 
 $color-text: #333333;
-$color-grey: #5d5d5d;
+/*$color-grey: #5d5d5d;
 $color-darkgrey: #444444;
-$color-accent: #056DD4;
-$color-background: #636363;
-$color-lightgrey: #a9a9a9;
+ $color-accent: #056DD4; 
+$color-background: #636363; 
+$color-lightgrey: #a9a9a9; */
 
 $color-night-accent: #AB9DF2;
 $color-night-backgd: #2C292D;
 
 $color-switch: #A9DC76;
+
+
+/* Solarised colours */
+
+$color-accent: #268BD2;
+$color-bg-light: #FDF6E3;
+$color-bg-dark: #073642;
+$color-bg-dark2: #002B36;
+$color-fg-grey: #586E75;
+$color-fg-grey2: #839496;
+$color-accent-green: #859900;
+$color-accent-purple: #6C71C4;
 
 @import "normalize";
 @import "fonts";
@@ -24,6 +36,7 @@ $color-switch: #A9DC76;
 @import "partials/socials";
 @import "partials/intro";
 @import "partials/switch";
+@import "partials/projects";
 
 
 body {
@@ -33,7 +46,7 @@ body {
   color:#2b2b2b;
   margin: 0px;
   padding:0px 0 20px 0px;
-  background: $color-background;
+  background: $color-bg-dark2;
 }
 
 body {
@@ -65,6 +78,10 @@ h2 {
   font-size: 24px;
 }
 
+strong {
+  color: $color-bg-dark;
+}
+
 h3 {
   font-size: 18px;
   line-height: 24px;
@@ -91,11 +108,6 @@ a small {
 
 a:hover {
   color: $color-accent;
-}
-
-strong {
-  font-weight: bold;
-  color: #333;
 }
 
 .wrapper {
@@ -186,7 +198,7 @@ small {
 footer {
   margin-top: 10px;
   text-align: center;
-  color: $color-lightgrey;
+  color: $color-fg-grey2;
 
   a {
     color: white;
@@ -369,33 +381,45 @@ footer {
 .night {
   color: white;
   section {
-  background-color: $color-night-backgd;
-  box-shadow: none;
-  border: none;
-  .chunk {
-    color: $color-night-accent;
-    &__line {
-    border-bottom: 1.5px solid $color-night-accent;
-       color: $color-night-accent;
+    background-color: $color-night-backgd;
+    box-shadow: none;
+    border: none;
+    .chunk {
+      color: $color-accent-purple;
+      &__line {
+      border-bottom: 1.5px solid $color-night-accent;
+         color: $color-accent-purple;
+      }
     }
-  }
-  strong {
-    color: $color-lightgrey;
-  }
-  a {
-    color: white;
-  }
-  svg {
-    fill: $color-lightgrey;
-  }
+    strong {
+      color: $color-fg-grey;
+    }
+    a {
+      color: white;
+    }
+    svg {
+      fill: $color-fg-grey;
+    }
 
-  .job__time {
-      color: $color-night-accent;
-  }
+    .job__time {
+        color: $color-accent-purple;
+    }
 
-  .school__time {
-      color: $color-night-accent;
+    .school__time {
+        color: $color-accent-purple;
+    }
   }
 }
 
+a:hover svg {
+  fill: $color-accent;
+}
+
+.night  {
+  a:hover {
+    color: $color-accent-purple;
+    svg {
+      fill: $color-accent-purple;
+    }
+  }
 }

@@ -1,6 +1,6 @@
-- location: Cranfield University
+- location: Cranfield University - MSc
   time: 2015
-  course: MSC IN COMPUTATIONAL TECHNIQUES IN SOFTWARE ENGINEERING
+  course: COMPUTATIONAL TECHNIQUES IN SOFTWARE ENGINEERING
   list: 
     - Computer Graphics (OpenGL, Qt, GLSL, C/C++, Graphics pipeline)
     - Computational Methods (IVPs, ODEs, Matrix equations etc, implemented in C/C++)
@@ -10,9 +10,9 @@
     - Software Testing (QTest, Visual Studio unit testing)
     - "Other: Cloud Computing theory, advanced C++, SQL and Java (Swing/IO)"
 
-- location: Birmingham City University
+- location: Birmingham City University - BSc
   time: 2012-2014
-  course: BSc in Computer Science
+  course: Computer Science
   list:
     - Covered C#, ASP.NET, Objective-C, Java, Oracle PL/SQL, Z-Schema and UML, as well as Database Design and theory in Algorithms andComputer Networks/Distribution (Cisco iOS)
 

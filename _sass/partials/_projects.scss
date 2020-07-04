@@ -1,0 +1,94 @@
+.project {
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 45% 10% 45%;
+  grid-template-rows:  10% 80% 10%;
+  img {
+    z-index: 1;
+  }
+  h3 {
+    margin-bottom: 5px;
+  }
+  ul {
+    display: flex;
+    list-style: outside none none;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  a {
+    svg {
+      height: 20px;
+    }
+  }
+   a:hover svg {
+    ill: $color-accent;
+  }
+  &__img__right {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+  &__right {
+      z-index: 2;
+      text-align: right;
+      grid-column-start: 2;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      p {
+        text-align: right;
+        background-color: $color-bg-light;
+        padding: 10px;
+        margin-bottom:0px;
+        box-shadow: rgba(2, 12, 27, 0.7) 0px 20px 30px -15px;
+      }
+      ul {
+        justify-content: flex-end;
+        li {
+          margin-left: 20px;
+          margin-right: 0px;
+        }
+      }
+      a{
+        margin-left: 10px;
+      }
+    }
+    &__img__left {
+      grid-column-start: 2;
+      grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    }
+    &__left {
+      z-index: 2;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      p {
+        text-align: left;
+        background-color: $color-bg-light;
+        padding: 10px;
+        margin-bottom:0px;
+        box-shadow: rgba(2, 12, 27, 0.7) 0px 20px 30px -15px;
+      }
+      ul {
+        justify-content: flex-start;
+        margin-left:0px;
+        li {
+          margin-right: 20px;
+          margin-left: 0px;
+        }
+      }
+      a{
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .night section .project  {
+    p {
+      background-color: $color-bg-dark;
+    }
+  }
