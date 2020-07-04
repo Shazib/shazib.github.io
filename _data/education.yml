@@ -1,0 +1,25 @@
+- location: Cranfield University
+  time: 2015
+  course: MSC IN COMPUTATIONAL TECHNIQUES IN SOFTWARE ENGINEERING
+  list: 
+    - Computer Graphics (OpenGL, Qt, GLSL, C/C++, Graphics pipeline)
+    - Computational Methods (IVPs, ODEs, Matrix equations etc, implemented in C/C++)
+    - High Performance Computing (MPI, C, Parallel program design)
+    - Requirements Analysis (Agile, SDLC, UML)
+    - Small Scale Parallel Programming (CUDA, C/C++, OpenMP)
+    - Software Testing (QTest, Visual Studio unit testing)
+    - "Other: Cloud Computing theory, advanced C++, SQL and Java (Swing/IO)"
+
+- location: Birmingham City University
+  time: 2012-2014
+  course: BSc in Computer Science
+  list:
+    - Covered C#, ASP.NET, Objective-C, Java, Oracle PL/SQL, Z-Schema and UML, as well as Database Design and theory in Algorithms andComputer Networks/Distribution (Cisco iOS)
+
+- location: A Levels & GCSE
+  time: 2004-2011
+  course: Moulton School & Science College
+  list:
+    - "A-Levels: ICT (A*), Product Design (B), Chemistry (C), Physics (C)"
+    - "AS-Level: Level 3 Extended Project Qualification (A)"
+    - "GCSE: 5A, 4B, 1C including English, Mathematics & Double Award Science"

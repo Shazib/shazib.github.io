@@ -1,0 +1,22 @@
+        <div class="sub-section">
+          <div class="chunk">Experience <div class="chunk__line"> </div> </div>
+          <div class="experience">
+            {% for job in site.data.experience %}
+            <div class="job">
+              <div class="top_row">
+                <a class="job__company" href="{{job.url}}" target="_blank">{{job.company}}</a>
+                <div class="job__time">{{job.time}}</div>
+              </div>
+              <div class="job__position">{{job.position}}</div>
+              <p class="job__description">{{job.description | newline_to_br }}</p>
+              <div class="job__list">
+                <ul>
+                 {% for listitem in job.list %}
+                    <li>{{listitem}}</li>
+                 {% endfor %}
+                </ul>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>

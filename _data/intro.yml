@@ -1,0 +1,12 @@
+- body: Hi I'm Shazib, I'm a software engineer based in the Midlands building back-end and desktop applications, occasionally mobile apps, and everything in between! My goal is always to build performant products that deliver native experiences.
+
+- body: After graduating from Cranfield University, I joined the small development team at TandG Apps full time where I spent most of my time building native iOS & Android apps. Shortly afterwards I moved to Mercedes-AMG F1 as an Aerodynamcics Software Engineer where I work on a number of bespoke projects for the aero department.
+- body: "Some technologies I've worked with recently:"
+  list:
+    - C# (.NET Core/Framework)
+    - C++ (Qt, std, MFC)
+    - HTML & (S)CSS
+    - SQL (MS SQL)
+    - Xamarin, AppCenter
+    - Jira & Confluence
+    - Git, TFS 

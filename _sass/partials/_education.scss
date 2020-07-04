@@ -1,0 +1,26 @@
+.education {
+  .school {
+    margin-bottom: 10px;
+    .top_row {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__location {
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin-bottom: 5px;
+    }
+    &__time {
+      font-size: 0.9rem;
+      font-style: italic;
+      color: $color-accent;
+    }
+    &__course{
+        font-size: 0.8rem;
+        text-transform: uppercase;;
+    }
+    &__list {
+        margin-top:5px;
+    }
+  }
+}

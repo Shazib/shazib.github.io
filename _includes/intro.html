@@ -1,0 +1,18 @@
+
+        <div class="sub-section">
+          <div class="chunk"> About Me <div class="chunk__line"> </div> </div>
+          <div class="intro">
+            {% for p in site.data.intro %}
+              <p>
+                {{ p.body }}
+              </p>
+              {% if p.list.size > 0 %}
+                <ul> 
+                   {% for listitem in p.list %}
+                      <li>{{listitem}}</li>
+                   {% endfor %}
+                </ul>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>

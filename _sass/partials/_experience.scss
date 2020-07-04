@@ -1,0 +1,33 @@
+.experience {
+  .job {
+    margin-bottom: 10px;
+    .top_row {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__company {
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin-bottom: 5px;
+    }
+    &__time {
+      font-size: 0.9rem;
+      font-style: italic;
+      color: $color-accent;
+    }
+    &__position{
+        font-size: 0.8rem;
+    }
+    &__larger {
+        font-size: 0.8rem;
+        display: inline-block;
+    }
+    &__description{
+        margin-top:5px;
+        line-height: 100%;
+    }
+    &__list {
+        margin-top:5px;
+    }
+  }
+}

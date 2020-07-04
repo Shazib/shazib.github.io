@@ -1,0 +1,21 @@
+        <div class="sub-section">
+          <div class="chunk">Education<div class="chunk__line"> </div> </div>
+          <div class="education">
+            {% for school in site.data.education %}
+            <div class="school">
+              <div class="top_row">
+                <a class="school__location" href="{{job.url}}" target="_blank">{{school.location}}</a>
+                <div class="school__time">{{school.time}}</div>
+              </div>
+              <div class="school__course">{{school.course}}</div>
+              <div class="school__list">
+                <ul>
+                 {% for listitem in school.list %}
+                    <li>{{listitem}}</li>
+                 {% endfor %}
+                </ul>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>

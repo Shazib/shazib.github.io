@@ -1,0 +1,40 @@
+.socials {
+  margin: 0 auto;
+  display: table;
+  border-spacing: 15px 0px;
+  .social {
+    display: table-cell;
+    &__text {
+      float: right;
+      padding-left: 5px;
+    }
+    a svg {
+
+        width:14px;
+        height: 14px;
+        margin-bottom: -2px;
+    }
+    a:hover svg {
+      fill: $color-accent;
+    }
+    a {
+        font-size: 0.8rem;
+        padding-left: 5px;
+    }
+  }
+}
+
+@media print, screen and (max-width: 720px) {
+  .socials
+  {
+    .social {
+        &__text {
+            width:0px;
+            height: 0px;
+            visibility: hidden;
+        }
+    }
+  }
+
+}
+

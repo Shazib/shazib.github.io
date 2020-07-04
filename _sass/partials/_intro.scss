@@ -1,0 +1,23 @@
+.intro {
+    ul {
+        columns: 2;
+        display: inline-block;
+        margin-left: -10px;
+    }
+    li {
+
+        margin-left: 20px;
+    }
+}
+
+@media print, screen and (max-width: 720px) {
+  .intro{
+    ul {
+      columns: 1;
+      margin-left: 10px;
+    }
+    li {
+        margin-left: 0px;
+    }
+  }
+}

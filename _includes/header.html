@@ -1,0 +1,13 @@
+        <header>
+          <h1><strong>Shazib</strong> Hussain</h1>
+          <div class="socials">
+            {% for social in site.data.socials %}
+              <div class="social">
+                <a href={{social.url}}>
+                  {{social.icon}}
+                  <div class="social__text">{{social.name}} </div>
+                </a>
+              </div>
+            {% endfor %}
+          </div>
+        </header>

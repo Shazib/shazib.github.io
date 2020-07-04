@@ -1,0 +1,5 @@
+- Link to PDF
+- Fix night mode button
+- better night mode colours?
+- add projects section
+- add skills section??
