@@ -1,12 +1,12 @@
 # Site Settings
 # 
 name: Shazib Huaain
-title: Shazib Hussain | Full Stack Software Engineer
+title: "Shazib Hussain | Full Stack Software Engineer"
 email: contact@shazib.com
-description: Full stack software engineer delivering performant and native experiences.
+description: "Full stack software engineer delivering performant and native experiences."
 baseurl: ""
-url: http://shazib.com"
-logo: assets/images/logo.png
+url: "http://shazib.com"
+logo: "assets/images/logo.png"
 twitter: "@shazibhussain"
 
 # Build settings
