@@ -1,6 +1,6 @@
 - name: SubdivisionJS
   description: Part of my Masters thesis, a JavaScript library to perform surface subdivision on arbitrary topology 3D meshes with Catmull–Clark, Doo–Sabin, and Loop subdivision schemes. A demo application using GLSL, WebGL and JavaScript demonstrates use of the library with user control over subdivision depth.
-  image: subdivisionjs.PNG
+  image: subdivisionjs.png
   link: "https://subdivision.shazib.com"
   github: "https://github.com/Shazib/SubdivisionJS"
   skills: 
@@ -11,7 +11,7 @@
     - GLSL
 - name: CometFTP
   description: BSc Thesis project. A multiplatform Qt/C++ based SFTP Client with a particular focus on GUI design and usability. C libraries libssh and OpenSSL are also used.
-  image: cometftp.PNG
+  image: cometftp.png
   link: 
   github: https://github.com/Shazib/CometFTP
   skills:
@@ -20,7 +20,7 @@
     - libssh
 - name: Personal Website
   description: First iteration of my personal website, using Jekyll and hosted on GitHub pages
-  image: website.PNG
+  image: website.png
   link: 
   github: https://github.com/Shazib/shazib.github.io
   skills:
