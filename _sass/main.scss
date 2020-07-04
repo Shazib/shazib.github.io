@@ -1,37 +1,6 @@
-/*
-Leap Day for GitHub Pages
-by Matt Graham
-*/
-
-$color-text: #333333;
-$color-night-accent: #AB9DF2;
-$color-night-backgd: #2C292D;
-
-$color-switch: #A9DC76;
-
-
-/* Solarised colours */
-
-$color-accent: #268BD2;
-$color-bg-light: #FDF6E3;
-$color-bg-dark: #073642;
-$color-bg-dark2: #002B36;
-$color-fg-grey: #586E75;
-$color-fg-grey2: #839496;
-$color-accent-green: #859900;
-$color-accent-purple: #6C71C4;
-
 @import "normalize";
 @import "fonts";
-
-@import "partials/experience";
-@import "partials/education";
-@import "partials/header";
-@import "partials/socials";
-@import "partials/intro";
-@import "partials/switch";
-@import "partials/projects";
-@import "partials/404";
+@import "partials/globals";
 
 body {
   font-family: 'Titillium Web';
@@ -46,7 +15,6 @@ body {
 body {
   line-height: 115%;
 }
-
 
 h1, h2, h3, h4, h5, h6 {
   margin:0 0 10px;
@@ -114,66 +82,6 @@ section img {
   max-width: 100%;
 }
 
-blockquote {
-  border-left:1px solid #ffcc00;
-  margin:0;
-  padding:0 0 0 20px;
-  font-style:italic;
-}
-
-code {
-  font-family: 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  font-size:13px;
-  color:#efefef;
-  text-shadow: 0px 1px 0px #000;
-  margin: 0 4px;
-  padding: 2px 6px;
-  background: #333;
-  border-radius: 2px;
-}
-
-pre {
-  padding:8px 15px;
-  background: #333333;
-  border-radius: 3px;
-  border:1px solid #c7c7c7;
-  overflow: auto;
-  overflow-y: hidden;
-
-  code {
-    margin: 0px;
-    padding: 0px;
-  }
-}
-
-table {
-  width:100%;
-  border-collapse:collapse;
-}
-
-th {
-  text-align:left;
-  padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
-  color: #444;
-}
-
-td {
-  text-align:left;
-  padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
-  border-right: 1px solid #ffcc00;
-
-  &:first-child {
-    border-left: 1px solid #ffcc00;
-  }
-}
-
-
-dt {
-  color:#444;
-  font-weight:700;
-}
 
 section {
   padding: 60px 90px 60px 90px;
@@ -199,7 +107,7 @@ footer {
   }
 }
 
-@media print, screen and (max-width: 1060px) {
+@include screen-1060 {
 
   div.wrapper {
     width:auto;
@@ -210,7 +118,7 @@ footer {
     display: none;
   }
 
-  header, section, footer {
+  section, footer {
     float:none;
 
     h1 {
@@ -240,25 +148,9 @@ footer {
     }
 }
 
-@media print, screen and (max-width: 720px) {
+@include screen-720 {
   body {
     word-wrap:break-word;
-  }
-
-  header {
-    padding:20px 20px;
-    margin: 0;
-
-    h1 {
-      font-size: 32px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      -o-text-overflow: ellipsis;
-      -ms-text-overflow: ellipsis;
-    }
-
-    p { display: none;}
   }
 
   #banner {
@@ -268,10 +160,9 @@ footer {
       float: left;
       display: inline-block;
       margin-left: 0px;
-    position:fixed;
-    left:20px;
-
-      }
+      position:fixed;
+      left:20px;
+    }
   }
 
   section {
@@ -281,35 +172,20 @@ footer {
     width: auto;
   }
 
-  header ul, header p.view {
+  ul {
     position:static;
   }
 }
 
-@media print, screen and (max-width: 480px) {
+@include screen-480 {
   body {
-  }
-
-  header{
-    position: relative;
-    padding: px 0px;
-    min-height: 0px;
-
-    h1 {
-      font-size: 24px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      -o-text-overflow: ellipsis;
-      -ms-text-overflow: ellipsis;
-    }
   }
   section {
     padding: 10px 25px 10px 25px;
   }
 
   #banner { display: none;}
-  header ul {
+  ul {
     display:none;
   }
 }
@@ -322,33 +198,13 @@ footer {
   }
 }
 
-@media print, screen and (max-height: 680px) {
-
-  footer {
-    text-align: center;
-    margin: 20px auto;
-    position: relative;
-    left:auto;
-    bottom:auto;
-    width:auto;
-  }
-}
-
-@media print, screen and (max-height: 480px) {
-  nav {
-    display: none;
-  }
-
-  footer {
-    text-align: center;
-    margin: 20px auto;
-    position: relative;
-    left:auto;
-    bottom:auto;
-    width:auto;
-  }
-}
-
+@import "partials/experience";
+@import "partials/education";
+@import "partials/header";
+@import "partials/intro";
+@import "partials/switch";
+@import "partials/projects";
+@import "partials/404";
 
 .chunk{
   margin:0 0 10px;
@@ -357,7 +213,6 @@ footer {
   font-family: 'Merriweather';
   font-size: 1.3rem;
   display: flex;
-
   &__line {
     border-bottom: 1.5px solid $color-accent;
     flex: 1;

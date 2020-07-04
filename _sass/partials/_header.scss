@@ -1,13 +1,77 @@
-.header {
+header {
+  text-align: center;
+  h1 {
+      line-height: 100%;
+      margin-bottom: 0px;
+  }
+  h4 {
     text-align: center;
+    font-size: 0.6rem;
+    margin-bottom: 2px;
+    color: $color-accent;
+  }
+  .socials {
+    margin: 0 auto;
+    display: table;
+    border-spacing: 15px 0px;
+    .social {
+      display: table-cell;
+      &__text {
+        float: right;
+        padding-left: 5px;
+      }
+      a svg {
+          width:14px;
+          height: 14px;
+          margin-bottom: -2px;
+      }
+      a {
+          font-size: 0.8rem;
+          padding-left: 5px;
+      }
+    }
+    @include screen-720 
+    {
+      margin: 0px;
+      .social {
+        &__text {
+            width:0px;
+            height: 0px;
+            visibility: hidden;
+        }
+      }
+    }
+  }
+  @include screen-1060 {
+      h1 {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+        -ms-text-overflow: ellipsis;
+      }
+  }
+  @include screen-720 {
     h1 {
-        line-height: 100%;
-        margin-bottom: 0px;
+      text-align: left;
+
+      font-size: 24px;
     }
-    h4 {
-      text-align: center;
-      font-size: 0.6rem;
-      margin-bottom: 2px;
-      color: $color-accent;
+  }
+  @include screen-480 {
+    position: relative;
+    padding: 0px 0px;
+    min-height: 0px;
+    h1 {
+      font-size: 24px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -o-text-overflow: ellipsis;
+      -ms-text-overflow: ellipsis;
     }
+  }
+  @include screen-300 {
+    margin-top: 60px;
+  }
 }
