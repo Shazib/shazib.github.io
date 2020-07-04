@@ -7,16 +7,16 @@
 
     I am responsible for the full production stack, including requirements gathering, testing, deployment, database deployments, and keeping close relationships with client and business needs, as well as working with other teams in the business for cross-department projects. I have contributed to deployments on highly critial systems, such as those running on trackside infrastructure. My introduction to the team also allowed increased capability for fringe projects, such as a custom STL file clash checker and introducing besoke integration with CAD software & MS Office.
   list: 
-    - Maintenance & Feature development on large VC++ MFC application
-    - Bespoke STL file Geometry Collision Tool (Parallel C++)
     - New systems in C# (.NET Core/Framework, EntityFramework, NHibernate, DevExpress)
-    - C++/CLI DLLs & C# Interop
-    - Bespoke STL Viewer (Qt, some OpenGL)
+    - Maintenance & Feature development on large VC++ MFC application
     - Xamarin Android application, deployed via Microsoft AppCenter
     - Database Admin, Optimisations & C# DB control app (T-SQL, SMO)
+    - COM integrations to CAD systems & MS Office (CATIA, 3DX)
+    - Bespoke STL file Geometry Collision Tool (Parallel C++)
     - WCF & REST Web Services (.NET Web API)
     - Creating & Deploying Windows Services
-    - COM integrations to CAD systems & MS Office (CATIA, 3DX)
+    - Bespoke STL Viewer (Qt, some OpenGL)
+    - C++/CLI DLLs & C# Interop
 
 - company: T and G Apps
   url:
@@ -24,10 +24,10 @@
   position: LEAD iOS DEVELOPER
   description: Promoted to a more senior role at the company, I was directly responsible for client management and overseeing iOS projects through to completion, as well as leading other developers on the team. I also took on a support role as a developer for the other projects such as Android project and web servers & apps.
   list:
-    - Developed an iOS app for a client’s dating website using Swift, Alamofire, Facebook SDK and Realm. Took over the existing web API to perform maintenance and bugfixing, including database management on AWS.
-    - Updated & improved a client’s existing vehicle expense tracking iOS app, using Objective-C, Core Data and AFNetworking. The project involved a significant overhaul of a legacy codebase alongside implementation of new features.
+    - Developed an iOS app for a client’s dating website using Swift, Alamofire, Facebook SDK and Realm. Took over existing web API to perform maintenance, bugfixing & database management on AWS.
+    - Updated & improved a client’s existing vehicle expense tracking iOS app, using Objective-C, Core Data and AFNetworking. Project involved a significant overhaul of a legacy codebase alongside implementation of new features.
+    - Developed a custom CMS system (Node.js, PostgreSQL, AWS, Angular.js) which allowed client’s to update apps easily from a web app. Migrated existing parts of the project to ECMAScript 6.
     - Introduced a thorough testing and QA regime into the company’s existing Kanban development style.
-    - Developed & deployed a custom CMS system written in Node.js using PostgreSQL and AWS. The system allowed client’s to update apps easily from an Angular.js web app. Also performed database changes and optimisations, as well as migrating parts of the project to ECMAScript 6.
 
 - company: T and G Apps
   url:
@@ -38,4 +38,4 @@
     - Extensive use of GitLab & JIRA
     - Developed 2D mobile game templates using Lua and Corona.
     - Developed an iOS application using Swift and Alamofire for a local park.
-    - Assisted on larger Lua projects by using Corona enterprise to integrate native Android code into projects.
+    - Supported larger projects by using Corona(Lua) to integrate native Android code.

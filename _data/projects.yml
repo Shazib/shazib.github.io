@@ -10,7 +10,7 @@
     - CSS
     - GLSL
 - name: CometFTP
-  description: A multiplatform Qt/C++ based SFTP Client with a particular focus on GUI design and usability. C libraries libssh and OpenSSL are also used.
+  description: BSc Thesis project. A multiplatform Qt/C++ based SFTP Client with a particular focus on GUI design and usability. C libraries libssh and OpenSSL are also used.
   image: cometftp.PNG
   link: 
   github: https://github.com/Shazib/CometFTP

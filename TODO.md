@@ -2,5 +2,3 @@
 - add skills section??
 - two column lists?
 - better favicon
-- keep section border in night mode (padding issue)
-- move to mixins for screen sizes

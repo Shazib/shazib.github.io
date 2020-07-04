@@ -1,0 +1,28 @@
+- name: Languages
+  list:
+    - C++
+    - C#
+    - HTML
+    - CSS/Sass
+    - SQL
+    - Swift
+    - OpenGL/CUDA (Basic)
+- name: Frameworks
+  list:
+    - .NET Core, Framework
+    - MFC
+    - Xamarin
+    - WinForms (DevExpress)
+    - Jekyll
+    - iOS (Not recently)
+    - Microsoft SMO
+
+- name: Tools
+  list: 
+    - Redgate SQL 
+    - Git
+    - Postman
+    - Visual Studio
+    - Qt Creator
+    - Linux CLI
+    - AWS

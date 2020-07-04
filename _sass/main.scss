@@ -149,18 +149,6 @@ footer {
     word-wrap:break-word;
   }
 
-  #banner {
-    top: 80px;
-
-    .fork {
-      float: left;
-      display: inline-block;
-      margin-left: 0px;
-      position:fixed;
-      left:20px;
-    }
-  }
-
   section {
     padding: 10px 25px 10px 25px;
     margin-top: 0px;
@@ -174,15 +162,8 @@ footer {
 }
 
 @include screen-480 {
-  body {
-  }
   section {
     padding: 10px 25px 10px 25px;
-  }
-
-  #banner { display: none;}
-  ul {
-    display:none;
   }
 }
 
@@ -200,6 +181,7 @@ footer {
 @import "partials/intro";
 @import "partials/switch";
 @import "partials/projects";
+@import "partials/skills";
 @import "partials/404";
 
 .chunk{
@@ -239,13 +221,13 @@ footer {
       }
     }
     strong {
-      color: $color-fg-grey;
+      color: $color-bg-light;
     }
     a {
       color: white;
     }
     svg {
-      fill: $color-fg-grey;
+      fill: $color-bg-light;
     }
 
     .job__time {

@@ -1,9 +1,15 @@
-        <dix class="sub-section">
-          <div class="chunk">Skills<div class="chunk__line"> </div> </div>
+<dix class="sub-section">
+  <div class="chunk">Skills<div class="chunk__line"> </div> </div>
+  <div class="skills">
+      {% for skill_group in site.data.skills %}
+        <div class="skills__group">
+          <h4>{{skill_group.name}}</h4>
           <ul>
-            <li>C++ (MFC & std)</li>
-            <li>C# (Core & Framework)</li>
-            <li>Xamarin</li>
-            <li>SQL</li>
+          {% for item in skill_group.list %}
+            <li>{{item}}</li>
+          {% endfor %}
           </ul>
-        </dix>
+        </div>
+      {% endfor %}
+  </div>
+</dix>
