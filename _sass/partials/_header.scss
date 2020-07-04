@@ -59,7 +59,7 @@ header {
     }
   }
   @include screen-480 {
-    position: relative;
+    display:inline-grid;
     padding: 0px 0px;
     min-height: 0px;
     h1 {
