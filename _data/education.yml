@@ -1,6 +1,6 @@
 - location: Cranfield University - MSc
   time: 2015
-  course: COMPUTATIONAL TECHNIQUES IN SOFTWARE ENGINEERING
+  course: Computational Techniques in Software Engineering
   list: 
     - Computer Graphics (OpenGL, Qt, GLSL, C/C++, Graphics pipeline)
     - Computational Methods (IVPs, ODEs, Matrix equations etc, implemented in C/C++)
