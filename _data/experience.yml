@@ -1,7 +1,7 @@
 - company: Mercedes AMG F1
   url: https://www.mercedesamgf1.com/en/
   time: Sept 2016 - Present
-  position: AERODYNAMICS SOFTWARE ENGINEER
+  position: Aerodynamics Software Engineer
   description: |
     The aerodynamics software team at Mercedes is a small department, and as such I have significantly enhanced the software development capability. I have been involved in maintaining & re-architecting legacy (VC++ MFC) systems; as well as leading the charge to moderning (C# .NET) this older tech stack. I helped intoduce good unit testing & mocking practices. More recently I have been involed in a further push for modernisation by leveraging my existing skills to develop an Andoid app (Xamarin, .NET Core Web API).
 
@@ -21,7 +21,7 @@
 - company: T and G Apps
   url:
   time: Sept 2015 - April 2016
-  position: LEAD iOS DEVELOPER
+  position: Lead iOS Developer
   description: Promoted to a more senior role at the company, I was directly responsible for client management and overseeing iOS projects through to completion, as well as leading other developers on the team. I also took on a support role as a developer for the other projects such as Android project and web servers & apps.
   list:
     - Developed an iOS app for a client’s dating website using Swift, Alamofire, Facebook SDK and Realm. Took over existing web API to perform maintenance, bugfixing & database management on AWS.
@@ -32,7 +32,7 @@
 - company: T and G Apps
   url:
   time: Sept 2014 - Sept 2015
-  position: PROGRAMMER
+  position: Programmer
   description: Joined a small team part-time during my MSc as a general applications developer to provide assitance wherever it was needed. The majority of my work was on Mobile App developement, which forays into back-end management.
   list:
     - Extensive use of GitLab & JIRA
