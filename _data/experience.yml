@@ -7,7 +7,7 @@
 
     I am responsible for the full production stack, including requirements gathering, testing, deployment, database deployments, and keeping close relationships with client and business needs, as well as working with other teams in the business for cross-department projects. I have contributed to deployments on highly critial systems, such as those running on trackside infrastructure. My introduction to the team also allowed increased capability for fringe projects, such as a custom STL file clash checker and introducing besoke integration with CAD software & MS Office.
   list: 
-    - New systems in C# (.NET Core/Framework, EntityFramework, NHibernate, DevExpress)
+    - New systems in C# (.NET Core/Framework, ASP.NET Core, EntityFramework, NHibernate, DevExpress)
     - Maintenance & Feature development on large VC++ MFC application
     - Xamarin Android application, deployed via Microsoft AppCenter
     - Database Admin, Optimisations & C# DB control app (T-SQL, SMO)

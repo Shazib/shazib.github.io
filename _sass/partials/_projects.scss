@@ -118,13 +118,18 @@
     @include screen-480 {
       @include proj_panel_full_align;
     }
+    @include screen-print {
+      @include proj_panel_full_align;      
+    }
   }
   &__left {
     z-index: 10;
     @include proj_panel_align_left;
     @include screen-480 {
       @include proj_panel_full_align;
-
+    }
+    @include screen-print {
+      @include proj_panel_full_align;
     }
   }
   &__img__wrapper {
@@ -134,12 +139,21 @@
       @include screen-480 {
         visibility: hidden;
       }
+      @include screen-print {
+        float: right;
+        max-width: 40%;
+        
+      }
     }
     &__left {
       position: relative;
       @include left_align_img;
       @include screen-480 {
         visibility: hidden;
+      }
+      @include screen-print {
+        float: right;
+        max-width: 40%;
       }
     }
   }

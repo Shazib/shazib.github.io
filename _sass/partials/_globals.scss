@@ -14,26 +14,31 @@ $color-accent-green: #859900;
 $color-accent-purple: #6C71C4;
 
 @mixin screen-1060 {
-  @media print, screen and (max-width: 1060px) {
+  @media screen and (max-width: 1060px) {
     @content
   }
 }
 
 @mixin screen-720 {
-  @media print, screen and (max-width: 720px) {
+  @media screen and (max-width: 720px) {
     @content
   }
 }
 
 @mixin screen-480 {
-  @media print, screen and (max-width: 480px) {
+  @media screen and (max-width: 480px) {
     @content;
   }
 }
 
 @mixin screen-300 {
-  @media print, screen and (max-width: 300px) {
+  @media screen and (max-width: 300px) {
     @content;
   }
 }
 
+@mixin screen-print {
+  @media print {
+    @content;
+  }
+}

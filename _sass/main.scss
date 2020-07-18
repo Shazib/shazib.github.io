@@ -67,7 +67,7 @@ a:hover {
 }
 
 .wrapper {
-  width:900px;
+  width:1000px;
   margin:0 auto;
   position:relative;
 }
@@ -77,7 +77,7 @@ section img {
 }
 
 section {
-  padding: 60px 90px 60px 90px;
+  padding: 60px 80px 60px 80px;
   margin-top: 50px;
   position:relative;
   background: #fbfbfb;
@@ -164,13 +164,6 @@ footer {
   }
 }
 
-@media print {
-  body {
-    padding:0.4in;
-    font-size:12pt;
-    color:#444;
-  }
-}
 
 @import "partials/experience";
 @import "partials/education";
@@ -192,7 +185,7 @@ footer {
     border-bottom: 1.5px solid $color-accent;
     flex: 1;
     margin-left: 3px;
-    margin-bottom: 1px;
+    margin-bottom: 5px;
 
   }
 }
@@ -208,7 +201,6 @@ footer {
     background-color: $color-night-backgd;
     box-shadow: 0px 1px 2px rgba(0,0,0,.00), inset 0px 0px 2px 2px rgba(88,110,117,.0), inset 0 0 5px 5px rgba(88,110,117,.0);
     border:1px solid $color-night-backgd;
-    
 
     .chunk {
       color: $color-accent-purple;
@@ -243,5 +235,76 @@ footer {
     svg {
       fill: $color-accent-purple;
     }
+  }
+}
+
+@media print {
+  body {
+    padding: 0.2in;
+    font-size:12pt;
+    color: $color-text;
+  }
+  section {
+    border-style: none;
+    box-shadow: none;
+    padding: 10px 25px 10px 25px;
+    img {
+      max-width: 40%;
+    }
+  }
+  .night {
+    color: black;
+  }
+  .project {
+    padding-top: 10px;
+    display: inline;
+    img {
+      float: right;
+    }
+    &__right {
+      padding-top: 10px;
+    }
+    &__left {
+      padding-top: 10px;
+    }
+  }
+  .night section {
+    border-style: none;
+    box-shadow: none;
+    .chunk {
+      color: $color-accent;
+      &__line {
+        border-bottom: 1.5px solid $color-accent;
+        padding-bottom: 4px;
+      }
+    }
+    .job__time {
+      color: $color-accent;
+    }
+    .school__time {
+      color: $color-accent;
+    }
+    .job__company {
+      color: black;
+    }
+    a {
+      color: black;
+    }
+    svg {
+      fill: $color-accent;
+    }
+    strong {
+      color: $color-bg-dark;
+    }
+    .project p {
+      box-shadow: none;
+    }
+  }
+  .wrapper {
+    width: 1350px;
+  }
+
+  header .socials .social a svg {
+    margin-bottom: 5px;
   }
 }
