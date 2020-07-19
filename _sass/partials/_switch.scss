@@ -25,7 +25,7 @@
       visibility: hidden;
       position: absolute;
       &:checked + label {
-        background: $color-accent-green;
+        background: $color-accent;
       }
       &:checked + label:after {
         left: calc(100% - 3px);
@@ -64,5 +64,10 @@
   .moon {
     background: url('../images/moon-white.svg') no-repeat center;
     background-size: 100%;
+  }
+  .toggle-wrapper {
+    #switch:checked + label {
+        background: $color-accent-purple;
+    }
   }
 }

@@ -1,5 +1,4 @@
 $color-text: #333333;
-$color-night-accent: #AB9DF2;
 $color-night-backgd: #2C292D;
 $color-light-grey: #e4e4e4;
 
@@ -11,7 +10,10 @@ $color-bg-dark: #073642;
 $color-bg-dark2: #002B36;
 $color-fg-grey2: #839496;
 $color-accent-green: #859900;
+
 $color-accent-purple: #6C71C4;
+
+$color-night-accent: $color-accent-purple;
 
 @mixin screen-1060 {
   @media screen and (max-width: 1060px) {

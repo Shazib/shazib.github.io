@@ -7,15 +7,20 @@
                 <a class="job__company" href="{{job.url}}" target="_blank">{{job.company}}</a>
                 <div class="job__time">{{job.time}}</div>
               </div>
-              <h3 class="job__position">{{job.position}}</h3>
-              <p class="job__description">{{job.description | newline_to_br }}</p>
-              <div class="job__list">
-                <ul>
-                 {% for listitem in job.list %}
-                    <li>{{listitem}}</li>
-                 {% endfor %}
-                </ul>
-              </div>
+                {% for position in job.positions %}
+                  <div class="top_row">
+                    <h3 class="job__position">{{position.role}}</h3>
+                    <div class="job__time">{{position.time}}</div>
+                  </div>
+                  <p class="job__description">{{position.description | newline_to_br }}</p>
+                  <div class="job__list">
+                    <ul>
+                     {% for listitem in position.list %}
+                        <li>{{listitem}}</li>
+                     {% endfor %}
+                    </ul>
+                  </div>
+                {% endfor %}
             </div>
             {% endfor %}
           </div>

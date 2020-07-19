@@ -240,8 +240,8 @@ footer {
 
 @media print {
   body {
-    padding: 0.2in;
-    font-size:12pt;
+    padding: 0.5in;
+    font-size:16pt;
     color: $color-text;
   }
   section {
@@ -251,9 +251,29 @@ footer {
     img {
       max-width: 40%;
     }
+    .project p {
+      box-shadow: none;
+    }
+    .chunk {
+      font-size: 18pt;
+    }
   }
   .night {
     color: black;
+  }
+  h4 {
+    font-size: 16pt;
+  }
+  h2 {
+    font-size: 16pt;
+  }
+  h3 {
+    font-size: 16pt;
+  }
+  .experience {
+    .job__time {
+      font-size: 16pt;
+    }
   }
   .project {
     padding-top: 10px;
@@ -263,15 +283,22 @@ footer {
     }
     &__right {
       padding-top: 10px;
+      a {
+        visibility: hidden;
+      }
     }
     &__left {
       padding-top: 10px;
+      a {
+        visibility: hidden;
+      }
     }
   }
   .night section {
     border-style: none;
     box-shadow: none;
     .chunk {
+      font-size: 18pt;
       color: $color-accent;
       &__line {
         border-bottom: 1.5px solid $color-accent;

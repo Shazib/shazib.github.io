@@ -18,8 +18,9 @@
     - Qt
     - C++
     - libssh
+    - OpenSSL
 - name: Personal Website
-  description: First iteration of my personal website, using Jekyll and hosted on GitHub pages
+  description: First iteration of my personal website, using Jekyll and hosted on GitHub pages. A Fully responsive attempt to replicate the feel of a PDF
   image: website.png
   link: 
   github: https://github.com/Shazib/shazib.github.io

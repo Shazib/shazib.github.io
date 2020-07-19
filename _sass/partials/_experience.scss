@@ -7,7 +7,7 @@
     }
     &__company {
       font-weight: 600;
-      font-size: 1.1rem;
+      font-size: 1rem;
       margin-bottom: 5px;
     }
     &__time {
@@ -16,6 +16,7 @@
       color: $color-accent;
     }
     &__position{
+      font-size: 1.0rem;
     }
     &__larger {
         font-size: 0.8rem;
