@@ -1,3 +1,5 @@
+var SunCalc = require('suncalc');
+
 var sectionHeight = function() {
   var total    = $(window).height(),
       $section = $('section').css('height','auto');
@@ -32,8 +34,14 @@ $(function() {
   $('img').on('load', sectionHeight);
 
   const d = new Date();
+  
+  // get today's sunlight times for London
+  var times = SunCalc.getTimes(new Date(), 51.5, -0.1);
+
   const hours = d.getHours();
-  const night = hours >= 19 || hours <= 7; // between 7pm and 7am
+
+  const night = hours >= times.sunrise.getHours() || house <= times.sunset.getHours()
+
   const body = document.querySelector('body');
   const toggle = document.getElementById('toggle');
   const input = document.getElementById('switch');

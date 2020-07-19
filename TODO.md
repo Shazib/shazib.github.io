@@ -1,6 +1,7 @@
 * Link to PDF version
 * Better favicon
 * Review colour scheme
-* Look up users sunset time when setting night mode
 * Remove un-used font files
-* expand links in print version
+* try making job title bold instead of company
+* dark mode make text more greyish
+* make purple a bit brighter - or change it to a blue???

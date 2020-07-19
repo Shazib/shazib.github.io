@@ -8,3 +8,4 @@ Started off life as the Jekyll theme [Leap Day](https://github.com/pages-themes/
 
 Inspiration & Code (night mode) from [Brittany Chiang](https://github.com/bchiang7/v3)
 
+Detection of sunrise via [SunCalc](https://github.com/mourner/suncalc)
