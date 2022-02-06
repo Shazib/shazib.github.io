@@ -4,13 +4,14 @@
   - role: Aerodynamics Software Engineer
     time: August 2018 - Present
     description: |
-      I moved from maintaining to slowly re-architecting legacy systems; leading the charge to moderning (C# .NET) this older tech stack. I have helped intoduce modern unit testing & mocking practices. More recently I have been involved in a further push for modernisation by leveraging my existing skills to develop an Andoid app (Xamarin, .NET Core Web API) to streamline specific workflows.
+      Moved from maintaining to also re-architecting legacy systems; leading the charge to moderning (C# .NET) the older tech stack. I have helped intoduce modern unit testing & mocking practices. More recently I have been involved in a further push for modernisation by leveraging my existing skills to develop an Andoid app (Xamarin, .NET Core Web API) to streamline specific workflows.
 
-      Currently responsible for the full production stack, including requirements gathering, testing, deployment, and keeping close relationships with client and business needs, as well as working with other teams in the business for cross-department projects. I have developed software deployed on highly critial trackside infrastructure. My introduction to the team has also allowed increased capability for fringe projects, such as a custom STL file clash checker, and introducing besoke integrations with CAD software & MS Office.
-    list: 
+      Currently responsible for the full production stack, including requirements gathering, testing, deployment, and keeping close relationships with client and business needs, as well as working with others in the business for cross-department projects. I have developed software deployed on critial trackside infrastructure. My joining the team has also allowed increased capability for fringe projects, such as a custom STL file clash checker, and introducing besoke integrations with CAD software, SAP & MS Office.
+    list:  
       - New systems in C# (.NET Core/Framework, ASP.NET Core, EntityFramework, NHibernate, DevExpress, SMO)
-      - C# Migration & re-architecting of legacy VC++ MFC applications
-      - Xamarin Android application, deployed via Microsoft AppCenter
+      - C# Migration & re-architecting of legacy VC++ MFC applications.
+      - Introducing Microservices
+      - Xamarin Android apps, with deployment & logging via Microsoft AppCenter
       - COM integrations to CAD systems & MS Office (CATIA, 3DX)
       - Bespoke STL file Geometry Collision Tool (C++, Multithreading)
       - REST Web Services (.NET Core Web API)
@@ -19,7 +20,7 @@
   - role: Graduate Aerodynamics Software Engineer
     time: Sept 2016 - August 2018
     description: |
-      The aerodynamics software team at Mercedes is a small department, and my introduction significantly enhanced the software development capability of the department. Originally tasked with maintaining and improving legacy (VC++ MFC) systems, my role expanded to other in house software and other C# tooling, as well as database upgrades, application testing and rollouts. I spearheaded new user forums to gather feedback and foster better end user relations. 
+      The aerodynamics software team at Mercedes is a small department, and my introduction significantly enhanced the software development capability of the department. Originally tasked with maintaining and improving legacy (VC++ MFC) systems, my role expanded to other in-house software and C# tooling, as well as database upgrades, application testing and rollouts. I spearheaded new user forums to gather feedback and foster better end user relations. 
     list:
       - Maintenance & Feature development on large VC++ MFC application
       - Database Admin, Maintenance & Optimisation

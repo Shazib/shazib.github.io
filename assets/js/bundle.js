@@ -39,9 +39,10 @@ $(function() {
   // get today's sunlight times for London
   var times = SunCalc.getTimes(new Date(), 51.5, -0.1);
 
-  const hours = d.getHours();
+  const beforeSunrise = d < times.sunrise;
+  const afterSunset = d > times.sunset;
 
-  const night = hours >= times.sunrise.getHours() || house <= times.sunset.getHours()
+  const night = beforeSunrise || afterSunset;
 
   const body = document.querySelector('body');
   const toggle = document.getElementById('toggle');
