@@ -4,9 +4,9 @@
   - role: Aerodynamics Software Engineer
     time: August 2018 - Present
     description: |
-      Moved from maintaining to also re-architecting legacy systems; leading the charge to moderning (C# .NET) the older tech stack. I have helped intoduce modern unit testing & mocking practices. More recently I have been involved in a further push for modernisation by leveraging my existing skills to develop an Andoid app (Xamarin, .NET Core Web API) to streamline specific workflows.
+      Moved from maintaining to also re-architecting legacy systems, leading the charge to modernising (C# .NET) the older tech stack. I have helped introduce modern unit testing & mocking practices. More recently I have been involved in a further push for modernisation by leveraging my existing skills to develop an Android app (Xamarin, .NET Core Web API) to streamline specific workflows.
 
-      Currently responsible for the full production stack, including requirements gathering, testing, deployment, and keeping close relationships with client and business needs, as well as working with others in the business for cross-department projects. I have developed software deployed on critial trackside infrastructure. My joining the team has also allowed increased capability for fringe projects, such as a custom STL file clash checker, and introducing besoke integrations with CAD software, SAP & MS Office.
+      Currently responsible for the full production stack, including requirements gathering, testing, deployment, and keeping close relationships with client and business needs, as well as working with others in the business for cross-department projects. I have developed software deployed on critical trackside infrastructure. My joining the team has also allowed increased capability for fringe projects, such as a custom STL file clash checker, and introducing bespoke integrations with CAD software, SAP & MS Office.
     list:  
       - New systems in C# (.NET Core/Framework, ASP.NET Core, EntityFramework, NHibernate, DevExpress, SMO)
       - C# Migration & re-architecting of legacy VC++ MFC applications.
@@ -40,7 +40,7 @@
       - Introduced a thorough testing and QA regime into the company’s existing Kanban development style.
   - role: Programmer
     time: Sept 2014 - Sept 2015
-    description: Joined a small team part-time during my MSc as a general applications developer to provide assitance wherever it was needed. The majority of my work was on Mobile App developement, which forays into back-end management.
+    description: Joined a small team part-time during my MSc as a general applications developer to provide assistance wherever it was needed. Most of my work was on Mobile App development, with forays into back-end management.
     list:
       - Extensive use of GitLab & JIRA
       - Developed 2D mobile game templates using Lua and Corona.
