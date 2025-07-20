@@ -1,48 +1,56 @@
 - company: Mercedes AMG F1
   url: https://www.mercedesamgf1.com/en/
   positions: 
-  - role: Aerodynamics Software Engineer
-    time: August 2018 - Present
+  - role: Senior Software Engineer
+    time: January 2024 - Present
     description: |
-      Moved from maintaining to also re-architecting legacy systems, leading the charge to modernising (C# .NET) the older tech stack. I have helped introduce modern unit testing & mocking practices. More recently I have been involved in a further push for modernisation by leveraging my existing skills to develop an Android app (Xamarin, .NET Core Web API) to streamline specific workflows.
+      Leading wider architecture decisions and long-term direction for the department. Becoming primary technical lead for in-house ERP system and core integrations. Expanded responsibilites to include leading the DevOps infrastructure, introducing and maintaining CI/CD, build automation, and deployment environments. 
+    list:
+      - Azure DevOps
+      - Ansible
+      - C#/C++
+      - MongoDB
+      - RabbitMQ
+  - role: Aerodynamics Software Engineer
+    time: August 2018 - December 2023
+    description: |
+      Transitioned from maintaining to re-architecting legacy systems, leading the modernization of the tech stack (C# .NET). Introduced modern unit testing and mocking practices. Also leveraged my existing skills to develop an Android app (Xamarin, .NET Core Web API) to streamline user workflows.
 
-      Currently responsible for the full production stack, including requirements gathering, testing, deployment, and keeping close relationships with client and business needs, as well as working with others in the business for cross-department projects. I have developed software deployed on critical trackside infrastructure. My joining the team has also allowed increased capability for fringe projects, such as a custom STL file clash checker, and introducing bespoke integrations with CAD software, SAP & MS Office.
+      Currently responsible for the full production stack; requirements, development, testing, deployment, and maintaining strong client-developer relationships. My expanded role and increased responsibilities have enabled me to focus on additional integrations, such as connections with CAD, SAP, and MS Office, enhancing the user experience.
     list:  
+      - Modern C++
+      - SQL Server
       - New systems in C# (.NET Core/Framework, ASP.NET Core, EntityFramework, NHibernate, DevExpress, SMO)
       - C# Migration & re-architecting of legacy VC++ MFC applications.
       - Introducing Microservices
-      - Xamarin Android apps, with deployment & logging via Microsoft AppCenter
-      - COM integrations to CAD systems & MS Office (CATIA, 3DX)
-      - Bespoke STL file Geometry Collision Tool (C++, Multithreading)
+      - Android app development (Xamarin, AppCenter)
       - REST Web Services (.NET Core Web API)
-      - Bespoke STL Viewer (Qt, OpenGL)
       - C++/CLI DLLs & C# Interop
   - role: Graduate Aerodynamics Software Engineer
     time: Sept 2016 - August 2018
     description: |
-      The aerodynamics software team at Mercedes is a small department, and my introduction significantly enhanced the software development capability of the department. Originally tasked with maintaining and improving legacy (VC++ MFC) systems, my role expanded to other in-house software and C# tooling, as well as database upgrades, application testing and rollouts. I spearheaded new user forums to gather feedback and foster better end user relations. 
+      The aerodynamics software team at Mercedes is small, and my introduction significantly enhanced the capability of the department. Originally tasked with maintaining and improving legacy (VC++ MFC) systems, my role expanded to other in-house software and C# tooling, as well as database management & upgrades, application testing and rollouts. I spearheaded new user forums to gather feedback and foster better end user relations. 
     list:
       - Maintenance & Feature development on large VC++ MFC application
       - Database Admin, Maintenance & Optimisation
       - C# Tooling
-      - C# WCF Services
+      - C# WCF Web Services
       - Creating & Deploying Windows Services
 - company: T and G Apps
   url:
   positions:
   - role: Lead iOS Developer
     time: Sept 2015 - April 2016
-    description: Promoted to a more senior role at the company, I was directly responsible for client management and overseeing iOS projects through to completion, as well as leading other developers on the team. I also took on a support role as a developer for the other projects such as Android project and web servers & apps.
+    description: Promoted to a more senior role, I was responsible for client management and overseeing iOS projects through to completion, as well as leading other developers on the team. Took on a support role for the other projects such as Android & web apps.
     list:
-      - Developed an iOS app for a client’s dating website using Swift, Alamofire, Facebook SDK and Realm. Took over existing web API to perform maintenance, bugfixing & database management on AWS.
-      - Updated & improved a client’s existing vehicle expense tracking iOS app, using Objective-C, Core Data and AFNetworking. Project involved a significant overhaul of a legacy codebase alongside implementation of new features.
-      - Developed a custom CMS system (Node.js, PostgreSQL, AWS, Angular.js) which allowed client’s to update apps easily from a web app. Migrated existing parts of the project to ECMAScript 6.
-      - Introduced a thorough testing and QA regime into the company’s existing Kanban development style.
+      - Developed an iOS app for a client's dating platform using Swift, Alamofire, Facebook SDK, and Realm; managed web API maintenance, bug fixing, and AWS database management.
+      - Overhauled a client's legacy vehicle expense tracking app (Objective-C, Core Data, AFNetworking), improving functionality and adding new features.
+      - Built a custom CMS system (Node.js, PostgreSQL, AWS, Angular.js), which allowed client's to deploy mobile app updates.
+      - Implemented a comprehensive testing and QA process within the company's existing Kanban workflow.
   - role: Programmer
     time: Sept 2014 - Sept 2015
     description: Joined a small team part-time during my MSc as a general applications developer to provide assistance wherever it was needed. Most of my work was on Mobile App development, with forays into back-end management.
     list:
-      - Extensive use of GitLab & JIRA
       - Developed 2D mobile game templates using Lua and Corona.
       - Developed an iOS application using Swift and Alamofire for a local park.
-      - Supported larger projects by using Corona(Lua) to integrate native Android code.
+      - Supported larger projects using Corona (Lua) bu=y integrating native Android code.
