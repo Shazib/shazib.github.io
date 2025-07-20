@@ -4,7 +4,7 @@
   - role: Senior Software Engineer
     time: January 2024 - Present
     description: |
-      Leading wider architecture decisions and long-term direction for the department. Becoming primary technical lead for in-house ERP system and core integrations. Expanded responsibilites to include leading the DevOps infrastructure, introducing and maintaining CI/CD, build automation, and deployment environments. 
+      I am now leading wider architecture decision making and long-term direction for the department. Become the primary technical lead for the in-house ERP system and its core integrations. Expanded responsibilites also now include ownership the DevOps infrastructure, introducing and maintaining CI/CD, build/test automation, and deployment environments.
     list:
       - Azure DevOps
       - Ansible
@@ -14,9 +14,9 @@
   - role: Aerodynamics Software Engineer
     time: August 2018 - December 2023
     description: |
-      Transitioned from maintaining to re-architecting legacy systems, leading the modernization of the tech stack (C# .NET). Introduced modern unit testing and mocking practices. Also leveraged my existing skills to develop an Android app (Xamarin, .NET Core Web API) to streamline user workflows.
+      Transitioned from maintaining to re-architecting legacy systems, leading the modernization of the tech stack (C# .NET Core). Introduced modern unit testing and mocking practices. Leveraged my existing skills to develop an Android app (Xamarin, .NET Core Web API) to streamline user workflows.
 
-      Currently responsible for the full production stack; requirements, development, testing, deployment, and maintaining strong client-developer relationships. My expanded role and increased responsibilities have enabled me to focus on additional integrations, such as connections with CAD, SAP, and MS Office, enhancing the user experience.
+      Currently responsible for full production stack; requirements to deployment, and maintaining strong client-developer relationships. My expanded role and increased responsibilities have enabled me to focus on additional integrations, such as connections with CAD, SAP, and MS Office, enhancing the user experience.
     list:  
       - Modern C++
       - SQL Server
@@ -43,10 +43,10 @@
     time: Sept 2015 - April 2016
     description: Promoted to a more senior role, I was responsible for client management and overseeing iOS projects through to completion, as well as leading other developers on the team. Took on a support role for the other projects such as Android & web apps.
     list:
-      - Developed an iOS app for a client's dating platform using Swift, Alamofire, Facebook SDK, and Realm; managed web API maintenance, bug fixing, and AWS database management.
-      - Overhauled a client's legacy vehicle expense tracking app (Objective-C, Core Data, AFNetworking), improving functionality and adding new features.
-      - Built a custom CMS system (Node.js, PostgreSQL, AWS, Angular.js), which allowed client's to deploy mobile app updates.
-      - Implemented a comprehensive testing and QA process within the company's existing Kanban workflow.
+      - Developed iOS app using Swift, Alamofire, Facebook SDK, and Realm; including AWS DB management
+      - Overhauled legacy apps (Objective-C, Core Data, AFNetworking)
+      - Built a custom CMS system (Node.js, PostgreSQL, AWS, Angular.js)
+      - Implemented a comprehensive testing and QA process
   - role: Programmer
     time: Sept 2014 - Sept 2015
     description: Joined a small team part-time during my MSc as a general applications developer to provide assistance wherever it was needed. Most of my work was on Mobile App development, with forays into back-end management.
